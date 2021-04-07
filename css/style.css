@@ -1,0 +1,1282 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+  font-family: "";
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: "";
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+body {
+  font-size: 14px;
+}
+
+._ibg {
+  position: relative;
+}
+
+._ibg img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin: 0 auto;
+  margin-top: -50px;
+}
+
+.header-container__content-1 {
+  margin-top: -450px;
+}
+
+.container-content__image {
+  position: relative;
+  height: auto;
+  z-index: 2;
+}
+
+.container-content-1__image {
+  position: relative;
+  z-index: 10;
+}
+
+.freestyle {
+  margin-top: 100px;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  left: 280px;
+  top: 300px;
+  z-index: 3;
+  -webkit-animation: block 4s linear infinite running forwards 0s;
+          animation: block 4s linear infinite running forwards 0s;
+}
+
+.freestyle-detail {
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 150px;
+}
+
+@-webkit-keyframes block {
+  0% {
+    left: 15%;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+    opacity: 0;
+  }
+
+  5% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+    opacity: 100;
+  }
+
+  40% {
+    top: -70px;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  90% {
+    opacity: 90%;
+  }
+
+  100% {
+    left: 78%;
+    opacity: 0;
+  }
+}
+
+@keyframes block {
+  0% {
+    left: 15%;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+    opacity: 0;
+  }
+
+  5% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+    opacity: 100;
+  }
+
+  40% {
+    top: -70px;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  90% {
+    opacity: 90%;
+  }
+
+  100% {
+    left: 78%;
+    opacity: 0;
+  }
+}
+
+._no-webp .body {
+  background: url("../img/motocross1.png") 0 0 no-repeat; }
+
+._no-webp .wheel {
+  background: url("../img/kolo_1.png") 0 0 no-repeat; }
+
+.wheel {
+  width: 70px;
+  height: 70px;
+  top: 102px;
+  left: 2px;
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: wheel 2s linear infinite forwards 0s;
+          animation: wheel 2s linear infinite forwards 0s;
+}
+
+.wheel2 {
+  width: 70px;
+  height: 70px;
+  left: 105px;
+  top: 57px;
+}
+
+@-webkit-keyframes wheel {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes wheel {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.freestyle-1 {
+  margin-top: 100px;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  left: 280px;
+  top: 300px;
+  z-index: 3;
+  -webkit-animation: block1 4s linear infinite running forwards 1s;
+          animation: block1 4s linear infinite running forwards 1s;
+}
+
+.freestyle-1-detail {
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 150px;
+}
+
+@-webkit-keyframes block1 {
+  0% {
+    left: 10%;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+    opacity: 0;
+  }
+
+  1% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+    opacity: 0;
+  }
+
+  3% {
+    opacity: 100%;
+  }
+
+  50% {
+    top: -50px;
+    -webkit-transform: rotate(50deg);
+            transform: rotate(50deg);
+  }
+
+  60% {
+    top: -50px;
+  }
+
+  95% {
+    opacity: 90%;
+  }
+
+  100% {
+    left: 78%;
+    -webkit-transform: rotate(60deg);
+            transform: rotate(60deg);
+    opacity: 0;
+  }
+}
+
+@keyframes block1 {
+  0% {
+    left: 10%;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+    opacity: 0;
+  }
+
+  1% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+    opacity: 0;
+  }
+
+  3% {
+    opacity: 100%;
+  }
+
+  50% {
+    top: -50px;
+    -webkit-transform: rotate(50deg);
+            transform: rotate(50deg);
+  }
+
+  60% {
+    top: -50px;
+  }
+
+  95% {
+    opacity: 90%;
+  }
+
+  100% {
+    left: 78%;
+    -webkit-transform: rotate(60deg);
+            transform: rotate(60deg);
+    opacity: 0;
+  }
+}
+
+._no-webp .body-1 {
+  background: url("../img/motocross_1.png") 0 0 no-repeat; }
+
+.body-1 {
+  -webkit-transform: rotate(-40deg);
+      -ms-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+}
+
+._no-webp .wheel-1 {
+  background: url("../img/kolo_1.png") 0 0 no-repeat; }
+
+.wheel-1 {
+  width: 70px;
+  height: 70px;
+  top: 145px;
+  left: 40px;
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: wheel 2s linear infinite forwards 0s;
+          animation: wheel 2s linear infinite forwards 0s;
+}
+
+.back {
+  width: 70px;
+  height: 70px;
+  left: 125px;
+  top: 73px;
+}
+
+@keyframes wheel {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.freestyle-2 {
+  margin-top: 100px;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  left: 290px;
+  top: 300px;
+  z-index: 3;
+  -webkit-animation: block2 4s linear infinite running forwards 2s;
+          animation: block2 4s linear infinite running forwards 2s;
+}
+
+.freestyle-2-detail {
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 150px;
+}
+
+@-webkit-keyframes block2 {
+  0% {
+    left: 18%;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+
+  20% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+
+  50% {
+    top: -100px;
+  }
+
+  90% {
+    opacity: 90%;
+  }
+
+  100% {
+    left: 78%;
+    opacity: 0;
+  }
+}
+
+@keyframes block2 {
+  0% {
+    left: 18%;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+
+  20% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+
+  50% {
+    top: -100px;
+  }
+
+  90% {
+    opacity: 90%;
+  }
+
+  100% {
+    left: 78%;
+    opacity: 0;
+  }
+}
+
+._no-webp .body-2 {
+  background: url("../img/motocross_2.png") 0 0 no-repeat; }
+
+._no-webp .wheel-2 {
+  background: url("../img/kolo_1.png") 0 0 no-repeat; }
+
+.wheel-2 {
+  width: 70px;
+  height: 70px;
+  top: 102px;
+  left: 33px;
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: wheel 2s linear infinite forwards 0s;
+          animation: wheel 2s linear infinite forwards 0s;
+}
+
+.back2 {
+  width: 70px;
+  height: 70px;
+  left: 133px;
+  top: 95px;
+}
+
+@keyframes wheel {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(500deg);
+            transform: rotate(500deg);
+  }
+}
+
+.freestyle-3 {
+  margin-top: 100px;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  left: 280px;
+  top: 300px;
+  z-index: 3;
+  -webkit-animation: block3 4s linear infinite running forwards 2.5s;
+          animation: block3 4s linear infinite running forwards 2.5s;
+}
+
+.freestyle-3-detail {
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 150px;
+}
+
+._no-webp .body-3 {
+  background: url("../img/motocross_3.png") 0 0 no-repeat; }
+
+@-webkit-keyframes block3 {
+  0% {
+    left: 14%;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+
+  20% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+
+  30% {
+    -webkit-transform: rotate(-270deg);
+            transform: rotate(-270deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    top: -20px;
+  }
+
+  50% {
+    top: -30px;
+  }
+
+  70% {
+    top: -10px;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+
+  95% {
+    opacity: 90%;
+  }
+
+  100% {
+    left: 65%;
+    opacity: 0;
+  }
+}
+
+@keyframes block3 {
+  0% {
+    left: 14%;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+
+  20% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+
+  30% {
+    -webkit-transform: rotate(-270deg);
+            transform: rotate(-270deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    top: -20px;
+  }
+
+  50% {
+    top: -30px;
+  }
+
+  70% {
+    top: -10px;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+
+  95% {
+    opacity: 90%;
+  }
+
+  100% {
+    left: 65%;
+    opacity: 0;
+  }
+}
+
+._no-webp .wheel-3 {
+  background: url("../img/kolo_1.png") 0 0 no-repeat; }
+
+.wheel-3 {
+  width: 70px;
+  height: 70px;
+  top: 115px;
+  left: 12px;
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: wheel 2s linear infinite forwards 0s;
+          animation: wheel 2s linear infinite forwards 0s;
+}
+
+.back3 {
+  width: 70px;
+  height: 70px;
+  left: 115px;
+  top: 90px;
+}
+
+@keyframes wheel {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(500deg);
+            transform: rotate(500deg);
+  }
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+._container {
+  width: 1470px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.content {
+  margin: 0 auto;
+  padding-right: 0px;
+}
+
+.sportbike {
+  margin-top: 100px;
+  position: absolute;
+  width: 450px;
+  height: 400px;
+  left: 250px;
+  top: 430px;
+  z-index: 15;
+  -webkit-animation: block-sport 2.5s linear infinite running forwards 0s;
+          animation: block-sport 2.5s linear infinite running forwards 0s;
+}
+
+.sportbike-detail {
+  position: absolute;
+  display: block;
+  width: 400px;
+  height: 335px;
+}
+
+@-webkit-keyframes block-sport {
+  0% {
+    left: 0;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+
+  20% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+
+  95% {
+    opacity: 90%;
+  }
+
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+@keyframes block-sport {
+  0% {
+    left: 0;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+
+  20% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+
+  95% {
+    opacity: 90%;
+  }
+
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+._no-webp .bodyone {
+  background: url("../img/sport-01.png") 0 0 no-repeat; }
+
+.bodyone {
+  z-index: 15;
+}
+
+._no-webp .wheel-alu {
+  background: url("../img/kolo_sport-021.png") 0 0 no-repeat; }
+
+.wheel-alu {
+  width: 90px;
+  height: 91px;
+  top: 125px;
+  left: -22px;
+  z-index: 5;
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: wheel-alu 1s linear infinite forwards 0s;
+          animation: wheel-alu 1s linear infinite forwards 0s;
+}
+
+.wheel-alu2 {
+  width: 90px;
+  height: 91px;
+  left: 180px;
+  top: 122px;
+}
+
+@-webkit-keyframes wheel-alu {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+  }
+}
+
+@keyframes wheel-alu {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+  }
+}
+
+.stuntbike {
+  margin-top: 100px;
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  left: 250px;
+  top: 300px;
+  z-index: 15;
+  -webkit-animation: motocykl 5s linear infinite running forwards 0s;
+          animation: motocykl 5s linear infinite running forwards 0s;
+}
+
+._no-webp .stuntbike::after {
+  background: url("../img/effekt.png") 0 0 no-repeat; }
+
+.stuntbike::after {
+  content: "";
+  width: 148px;
+  height: 52px;
+  position: absolute;
+  top: 360px;
+}
+
+.stuntbike-detail {
+  position: absolute;
+  display: block;
+  width: 400px;
+  height: 413px;
+}
+
+@-webkit-keyframes motocykl {
+  0% {
+    left: 0;
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+
+  20% {
+    -webkit-transform: rotate(80deg);
+            transform: rotate(80deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+
+  30% {
+    -webkit-transform: rotate(55deg);
+            transform: rotate(55deg);
+  }
+
+  35% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+
+  45% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+
+  55% {
+    -webkit-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+  }
+
+  65% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+
+  75% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+
+  85% {
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+  }
+
+  90% {
+    opacity: 90%;
+  }
+
+  100% {
+    left: 80%;
+    opacity: 0;
+  }
+}
+
+@keyframes motocykl {
+  0% {
+    left: 0;
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+
+  20% {
+    -webkit-transform: rotate(80deg);
+            transform: rotate(80deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+
+  30% {
+    -webkit-transform: rotate(55deg);
+            transform: rotate(55deg);
+  }
+
+  35% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+
+  45% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+
+  55% {
+    -webkit-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+  }
+
+  65% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+
+  75% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+
+  85% {
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+  }
+
+  90% {
+    opacity: 90%;
+  }
+
+  100% {
+    left: 80%;
+    opacity: 0;
+  }
+}
+
+._no-webp .bodstunt {
+  background: url("../img/kawasaki.png") 0 0 no-repeat; }
+
+.bodstunt {
+  z-index: 15;
+}
+
+._no-webp .wheel-stunt {
+  background: url("../img/kolo.png") 0 0 no-repeat; }
+
+.wheel-stunt {
+  width: 155px;
+  height: 155px;
+  top: 280px;
+  left: 190px;
+  z-index: 5;
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: wheel-stunt 2s linear infinite forwards 0s;
+          animation: wheel-stunt 2s linear infinite forwards 0s;
+}
+
+.wheel-stunt2 {
+  width: 155px;
+  height: 155px;
+  left: 185px;
+  top: -10px;
+  -webkit-animation: wheel-stunt2 3s linear infinite forwards 0s;
+          animation: wheel-stunt2 3s linear infinite forwards 0s;
+}
+
+@-webkit-keyframes wheel-stunt2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+  }
+}
+
+@keyframes wheel-stunt2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+  }
+}
+
+@-webkit-keyframes wheel-stunt {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+  }
+}
+
+@keyframes wheel-stunt {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+  }
+}
+
+.stuntbikeone {
+  margin-top: 100px;
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  right: 100px;
+  top: 500px;
+  z-index: 15;
+  -webkit-animation: motocykl2 6s linear infinite running forwards 0s;
+          animation: motocykl2 6s linear infinite running forwards 0s;
+}
+
+.stuntbikeone-detail {
+  position: absolute;
+  display: block;
+  width: 400px;
+  height: 413px;
+}
+
+@-webkit-keyframes motocykl2 {
+  0% {
+    right: -30em;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+
+  20% {
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+
+  30% {
+    -webkit-transform: rotate(55deg);
+            transform: rotate(55deg);
+  }
+
+  35% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+
+  45% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+
+  55% {
+    -webkit-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+  }
+
+  65% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+
+  75% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+
+  85% {
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+  }
+
+  90% {
+    opacity: 90%;
+  }
+
+  100% {
+    right: 120%;
+    opacity: 0;
+  }
+}
+
+@keyframes motocykl2 {
+  0% {
+    right: -30em;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+
+  20% {
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+
+  30% {
+    -webkit-transform: rotate(55deg);
+            transform: rotate(55deg);
+  }
+
+  35% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+
+  45% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+
+  55% {
+    -webkit-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+  }
+
+  65% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+
+  75% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+
+  85% {
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+  }
+
+  90% {
+    opacity: 90%;
+  }
+
+  100% {
+    right: 120%;
+    opacity: 0;
+  }
+}
+
+._no-webp .bodystunt1 {
+  background: url("../img/ktm.png") 0 0 no-repeat; }
+
+.bodystunt1 {
+  z-index: 15;
+}
+
+._no-webp .wheel-stunt1 {
+  background: url("../img/kolo_stunt.png") 0 0 no-repeat; }
+
+.wheel-stunt1 {
+  width: 155px;
+  height: 155px;
+  top: 250px;
+  right: 240px;
+  z-index: 5;
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: wheel-stunt 2s linear infinite forwards 0s;
+          animation: wheel-stunt 2s linear infinite forwards 0s;
+}
+
+.wheel-stuntback {
+  width: 155px;
+  height: 155px;
+  right: 320px;
+  top: 5px;
+  -webkit-animation: wheel-stunt2 3s linear infinite forwards 0s;
+          animation: wheel-stunt2 3s linear infinite forwards 0s;
+}
+
+@keyframes wheel-stunt2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+  }
+}
+
+@keyframes wheel-stunt {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+  }
+}
+
+._webp .body { background: url(../img/motocross1.webp) 0 0 no-repeat; }
+
+._webp .wheel { background: url(../img/kolo_1.webp) 0 0 no-repeat; }
+
+._webp .body-1 { background: url(../img/motocross_1.webp) 0 0 no-repeat; }
+
+._webp .wheel-1 { background: url(../img/kolo_1.webp) 0 0 no-repeat; }
+
+._webp .body-2 { background: url(../img/motocross_2.webp) 0 0 no-repeat; }
+
+._webp .wheel-2 { background: url(../img/kolo_1.webp) 0 0 no-repeat; }
+
+._webp .body-3 { background: url(../img/motocross_3.webp) 0 0 no-repeat; }
+
+._webp .wheel-3 { background: url(../img/kolo_1.webp) 0 0 no-repeat; }
+
+._webp .bodyone { background: url(../img/sport-01.webp) 0 0 no-repeat; }
+
+._webp .wheel-alu { background: url(../img/kolo_sport-021.webp) 0 0 no-repeat; }
+
+._webp .stuntbike::after { background: url(../img/effekt.webp) 0 0 no-repeat; }
+
+._webp .bodstunt { background: url(../img/kawasaki.webp) 0 0 no-repeat; }
+
+._webp .wheel-stunt { background: url(../img/kolo.webp) 0 0 no-repeat; }
+
+._webp .bodystunt1 { background: url(../img/ktm.webp) 0 0 no-repeat; }
+
+._webp .wheel-stunt1 { background: url(../img/kolo_stunt.webp) 0 0 no-repeat; }
